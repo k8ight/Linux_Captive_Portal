@@ -1,0 +1,193 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+
+    overflow:hidden;
+	
+	height:100%;
+	width:80%;
+	left:50px;
+	color: #333;
+	font: 16px Arial;
+	padding: 50px;
+	background-image: url(./images/paper.gif);
+    background-position: center;
+   
+}
+a{
+  text-decoration: none;
+}
+span{
+	font: 250% Arial;
+	color:red;
+}
+
+#container {
+	left:.3%;
+	top:1%;
+	position:absolute;
+	height: 600px;
+	width:21%;
+	box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5);
+	background: white; 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+     opacity: 0.90;
+}
+
+#container1 {
+	top:1%;
+	left:22%;
+	padding:10px 1px 1px 1px;
+	position:absolute;
+	overflow-y: scroll;
+	overflow-x: scroll;
+    height: 98%;
+	width:78%;
+	box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5);
+	background: white; 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+     opacity: 0.77;
+}
+#containerA2{
+	left:35%;
+	top:10%;
+	position:absolute;
+    height: 520px;
+	width:300px;
+	box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5);
+	background: white; 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+     opacity: 0.91;
+	}
+#myInput {
+	top:80%;
+	position:absolute;
+	left:2%;
+    width:88%;
+	height:30px;
+	font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 14px;  
+  margin-bottom: 12px;
+}
+
+h1 {
+	text-align: center;
+	padding: 30px 0 12px 0;
+	margin: 0;
+	color:red;
+	font-size: 50px;
+}
+h2 {
+	font-size: 16px;
+	text-align: center;
+	padding: 0 0 12px 0; 
+}
+input[type='text'], input[type='email'],input[type='phone'], input[type='password'],input[type='date'], select
+{
+	border-radius: 25px;
+            padding: 10px;
+            width: 250px;
+            height: 20px;
+	
+border: 1px solid #CCC;
+ color: #333; 
+ font-size: 14px; 
+ margin-top: 10px;
+  
+ }
+ .tbi{
+	 	border-radius: 25px;
+            padding: 10px;
+            width: 250px;
+            height: 20px;
+	
+border: 1px solid #CCC;
+ color: #333; 
+ font-size: 14px; 
+ margin-top: 10px;
+ }
+.tbib{
+	padding: 0px 0px 0px; 
+	color: #fff; 
+	background-color: none;
+	text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
+	font-size: 16px; 
+	box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
+	border: 1px solid green; 
+	border-radius:0px;
+	margin-top: 10px;
+ cursor:pointer;
+ }
+ textarea
+{
+	border-radius: 25px;
+            padding: 10px;
+            width: 350px;
+            height: 80px;
+	
+border: 1px solid #CCC;
+ color: #333; 
+ font-size: 14px; 
+ margin-top: 10px;
+  resize:none;
+ }
+ input[type='date']{ width: 200px;}
+ 
+ select{width: 300px;height: 40px;}
+#a,#b,input[type='submit']
+{
+	padding: 4px 11px 4px; 
+	color: #fff; 
+	background-color: Green;
+	text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
+	font-size: 16px; 
+	box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
+	border: 1px solid green; 
+	border-radius:25px;
+	margin-top: 10px;
+ cursor:pointer;}
+
+.span {
+	  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+	  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  display: block;
+  width: 100%;
+}
+
+.span:hover, .span:focus {
+  text-decoration: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25)
+}
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px groove black;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

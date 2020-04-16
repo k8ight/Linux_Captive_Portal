@@ -1,0 +1,164 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+
+    overflow:hidden;
+	
+	height:100%;
+	width:80%;
+	left:50px;
+	color: #333;
+	font: 16px Arial;
+	padding: 50px;
+	background-image: url(./.images/gbase.jpg);
+    background-position: center;
+   
+}
+span{
+	font: 150% Arial;
+	color:red;
+}
+h1 {
+	text-align: center;
+	padding: 30px 0 12px 0;
+	margin: 0;
+	color:red;
+	font-size: 30px;
+}
+h2 {
+	font-size: 16px;
+	text-align: center;
+	padding: 0 0 12px 0; 
+}
+
+
+#containerA1{
+	left:35%;
+	top:10%;
+	position:absolute;
+    height: 300px;
+	width:300px;
+	box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5);
+	background: white; 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+     opacity: 0.91;
+	}
+	
+
+input[type='text'], input[type='email'],input[type='phone'], input[type='password'],input[type='date'], select
+{
+	border-radius: 25px;
+            padding: 10px;
+            width: 250px;
+            height: 20px;
+	
+border: 1px solid #CCC;
+ color: #333; 
+ font-size: 14px; 
+ margin-top: 10px;
+  
+ }
+ input[type='date']{ width: 200px;}
+ 
+ select{width: 200px;height: 40px;}
+#a,#b,input[type='submit']
+{
+	padding: 4px 11px 4px; 
+	color: #fff; 
+	background-color: Green;
+	text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
+	font-size: 16px; 
+	box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
+	border: 1px solid green; 
+	border-radius:25px;
+	margin-top: 10px;
+ cursor:pointer;}
+
+@media screen and (max-width: 450px) {
+	
+	* {
+	padding:0;
+	margin:0;
+}
+
+body {
+
+    overflow:hidden;
+	
+	height:100%;
+	width:80%;
+	left:50px;
+	color: #333;
+	font: 16px Arial;
+	padding: 50px;
+	background-image: url(./.images/gbase.jpg);
+    background-position: center;
+   
+}
+span{
+	font: 150% Arial;
+	color:red;
+}
+h1 {
+	text-align: center;
+	padding: 30px 0 12px 0;
+	margin: 0;
+	color:red;
+	font-size: 30px;
+}
+h2 {
+	font-size: 16px;
+	text-align: center;
+	padding: 0 0 12px 0; 
+}
+
+
+#containerA1{
+	left:0%;
+	top:10%;
+	position:absolute;
+    height: 300px;
+	width:100%;
+	box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5);
+	background: white; 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+     opacity: 0.91;
+	}
+	
+
+input[type='text'], input[type='email'],input[type='phone'], input[type='password'],input[type='date'], select
+{
+	border-radius: 25px;
+            padding: 10px;
+            width: 250px;
+            height: 20px;
+	
+border: 1px solid #CCC;
+ color: #333; 
+ font-size: 14px; 
+ margin-top: 10px;
+  
+ }
+ input[type='date']{ width: 200px;}
+ 
+ select{width: 200px;height: 40px;}
+#a,#b,input[type='submit']
+{
+	padding: 4px 11px 4px; 
+	color: #fff; 
+	background-color: Green;
+	text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
+	font-size: 16px; 
+	box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
+	border: 1px solid green; 
+	border-radius:25px;
+	margin-top: 10px;
+ cursor:pointer;}
+
+	
+}

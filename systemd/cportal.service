@@ -1,0 +1,13 @@
+[Unit]
+Description=CPORTAL Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+User=root
+ExecStart=/bin/bash /usr/bin/cactive.sh
+
+[Install]
+WantedBy=multi-user.target

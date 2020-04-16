@@ -1,0 +1,13 @@
+[Unit]
+Description=PHPCGI Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+User=root
+ExecStart=/bin/bash /usr/bin/phpcgi.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -30,6 +30,7 @@ Traffic controll does not included
 A preloaded Iso image with cinnamon gui available:-https://mega.nz/file/ZJslBR5B#ldyeKRznju-WHOm3y87hoWuSUm-cqDTIb_r4s7MCGdU
 
 Default user root password toor
+
 burn the iso or mount on vm then enter live, from terminal use command uli (universal linux installer) and follow the instruction
 
 kernel 5.5.5 && runtime deps are required so select y on install and setup requires to sccess debian repo 

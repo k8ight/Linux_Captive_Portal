@@ -33,7 +33,7 @@ Default user root password toor
 
 burn the iso or mount on vm then enter live, from terminal use command uli (universal linux installer) and follow the instruction
 
-
+This iso image does not use technitium insted it uses isc-bind n Intigrated custom web Network manager
  
 
 

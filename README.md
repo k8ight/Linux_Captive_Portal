@@ -31,7 +31,7 @@ A preloaded Iso image with cinnamon gui available:-https://mega.nz/file/MR0hXYxA
 
 Default user root password toor
 
-burn the iso or mount on vm then enter live, from terminal use command uli (universal linux installer) and follow the instruction
+burn the iso or mount on vm then enter live, from terminal use command uli (universal linux installer) and follow the instruction or you can directly install using debian installer
 
 This iso image does not use technitium insted it uses isc-bind n Intigrated custom web Network manager
  

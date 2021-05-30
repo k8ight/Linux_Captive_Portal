@@ -4,7 +4,7 @@ Linux Based isp grade captive portal
 # Setup 
 run cmd: debian(>9)/ubuntu(>19.04):apt install nginx php php-cgi php-mbstring php-mysql mariadb-server cockpit-networkmanager --no-install-recommends cokcpit
 
-technituim dhcp dns(optional) required download:https://technitium.com/dns/
+technituim dhcp dns(optional) if required download:https://technitium.com/dns/
 then copy  all files to /var/www/html
 
 after it copy nginx folder from  /var/www/html/systemd folder to /etc (replace n overwrite)
